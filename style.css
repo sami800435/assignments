@@ -1,0 +1,79 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  color: darkblue;
+}
+p {
+  font-size: 16px;
+}
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.article {
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.sidebar {
+  background-color: #eee;
+  padding: 10px;
+}
+
+
+#main-header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+#site-footer {
+  background-color: #444;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+a[title] {
+  border-bottom: 1px dotted #aaa;
+}
+a[data-category="services"] {
+  font-weight: bold;
+  color: orange;
+}
+
+
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: purple;
+}
+.sidebar ul li:first-child {
+  font-weight: bold;
+}
+.article:hover {
+  background-color: #ddd;
+}
+
+/
+.navbar > ul > li {
+  display: inline;
+}
+.content-area article + article {
+  border-top: 1px solid #ccc;
+}
+.sidebar ul li:last-child {
+  color: red;
+}
